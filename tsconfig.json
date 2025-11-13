@@ -13,23 +13,16 @@
     "isolatedModules": true,
     "jsx": "preserve",
     "incremental": true,
-    "plugins": [
-      {
-        "name": "next"
-      }
-    ],
-    "baseUrl": ".",
+    "plugins": [{ "name": "next" }],
     "paths": {
       "@/*": ["./*"]
-    },
-    "ignoreDeprecations": "6.0"
+    }
   },
   "include": [
     "next-env.d.ts",
     "**/*.ts",
     "**/*.tsx",
-    "**/*.css",
-    "**/*.d.ts",       
+    "**/*.d.ts",
     ".next/types/**/*.ts",
     "app/lib/placeholder-data.ts",
     "scripts/seed.js"
